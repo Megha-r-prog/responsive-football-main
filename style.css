@@ -6,6 +6,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: auto;
 }
+hr{
+    width: 85%;
+}
 
 /* section1 styles */
 .bannerpart{
@@ -27,7 +30,7 @@ body{
 .fa-arrow-right .buttonicon{
     margin-left: 8px;
 }
-.buttons a, .buttons i{
+.buttons a,.buttons, .buttons i{
     text-decoration: none;
     color: white;
 }
@@ -230,14 +233,11 @@ footer{
     @media only screen and (max-width:992px) and (min-width:688px){
         .bannerpart{
             width: 100%;
-            /* flex-direction: column; */
         }
         .bannerpart img{
             width: 350px;
             height: 300px;
-            /* margin-top: 25px; */
             margin-right: 35px;
-            /* margin-bottom: 61px; */
             margin-left: 50px;
         }
         .banner-text{
@@ -267,6 +267,10 @@ footer{
             margin-left: 37px;
             margin-right: 15px;
             margin-bottom: 60px;
+        }
+        #morebutton{
+            margin-left: 5%;
+            margin-bottom: 5%
         }
         .sectiontitle{
             margin-left: 8%;
