@@ -12,7 +12,6 @@ hr{
 
 /* section1 styles */
 .bannerpart{
-        /* width: 1440px; */
     display: flex;
     background-color: #2D25A0;
     margin: 0;
@@ -119,6 +118,10 @@ article .newsheadline{
     color: #E02C6D;
     text-shadow:5px 5px 15px #fc337d79;
 }
+#morebutton{
+    margin-left: 210px;
+    margin-bottom: 5%
+}
 
 /* section4 teams part */
 .team img{
@@ -135,7 +138,6 @@ article .newsheadline{
 footer img{
     width: 483.87px;
     height: 110px;
-    /* margin-top: 158px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -206,6 +208,11 @@ footer{
         margin-right: 15px;
         margin-bottom: 60px;
     }
+    #morebutton{
+        margin-left: 22px;
+        margin-bottom: 5%
+    }
+
     .sectiontitle{
         margin-left: 8%;
         font-size: 2em;
@@ -216,7 +223,7 @@ footer{
     }
     .teams{
         grid-template-columns: repeat(2,1fr);
-        margin-left: 3%;
+        margin-left: 8%;
     }
     footer img{
         width: 200px;
@@ -235,8 +242,8 @@ footer{
             width: 100%;
         }
         .bannerpart img{
-            width: 350px;
-            height: 300px;
+            width: 340px;
+            height: 290px;
             margin-right: 35px;
             margin-left: 50px;
         }
@@ -255,7 +262,7 @@ footer{
             padding-left: 3%;
         }
         .bannerpart:hover .section1img{
-            transform: scale(1.3);
+            transform: scale(1.2);
             transition: transform 1s ease-in-out;
         }
     
@@ -273,7 +280,7 @@ footer{
             margin-bottom: 5%
         }
         .sectiontitle{
-            margin-left: 8%;
+            margin-left: 37px;
             font-size: 3em;
         }
         .team img{
@@ -282,7 +289,7 @@ footer{
         }
         .teams{
             grid-template-columns: repeat(3,1fr);
-            margin-left: 6%;
+            margin-left: 10%;
         }
         footer img{
             width: 250px;
